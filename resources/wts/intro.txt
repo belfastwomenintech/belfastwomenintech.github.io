@@ -1,3 +1,0 @@
-Women Tech Space is an extension of Django Girls Belfast. We at DG love being coaches and mentoring the women that come to our workshops, but we found it hard to keep the lines of communication, motivation and dedication open after the event was over.
-
-We have set up Women Tech Space as a safe space for women to come to learn, to fail, and learn and fail all over again!

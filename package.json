@@ -1,12 +1,13 @@
 {
     "name": "belfastwomenintech.github.io",
     "version": "0.1.0",
-    "description": "Synopsis of all Women's tech groups in Belfast",
+    "description": "Synopsis of all women's tech groups in Belfast",
     "scripts": {
         "start": "npm run build && node server.js",
         "autoprefixer": "postcss -u autoprefixer -b 'last 2 versions' -r build/css/*",
+        "imagemin": "imagemin --plugin=pngquant src/resources/*/* --out-dir=build/assets/img/",
         "styles": "node-sass src/styles --output=build/css/ --output-style=compressed && npm run autoprefixer",
-        "build": "npm run styles"
+        "build": "npm run styles && npm run imagemin"
     },
     "repository": {
         "type": "git",
@@ -20,8 +21,10 @@
         "express": "^4.16.4"
     },
     "dependencies": {
-        "luminous-lightbox": "^2.3.1",
         "autoprefixer": "^9.3.1",
+        "imagemin-cli": "^3.0.0",
+        "imagemin-pngquant": "^6.0.0",
+        "luminous-lightbox": "^2.3.1",
         "node-sass": "^4.9.4",
         "npm": "^6.4.1",
         "postcss-cli": "^6.0.1"
