@@ -1,9 +1,9 @@
 {
     "name": "belfastwomenintech.github.io",
     "version": "0.1.0",
-    "description": "Synopsis of all Women's tech groups in Belfas",
+    "description": "Synopsis of all Women's tech groups in Belfast",
     "scripts": {
-
+        "start" : "node server.js"
     },
     "repository": {
         "type": "git",
@@ -14,7 +14,7 @@
     ],
     "license": "MIT",
     "devDependencies": {
-
+        "express": "^4.16.4"
     },
     "dependencies": {
         "npm": "^6.4.1"
