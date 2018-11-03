@@ -5,7 +5,7 @@
     "scripts": {
         "start": "npm run build && node server.js",
         "autoprefixer": "postcss -u autoprefixer -b 'last 2 versions' -r build/css/*",
-        "styles": "node-sass src/style --output=build/css/ --output-style=compressed && npm run autoprefixer",
+        "styles": "node-sass src/styles --output=build/css/ --output-style=compressed && npm run autoprefixer",
         "build": "npm run styles"
     },
     "repository": {
