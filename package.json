@@ -1,0 +1,23 @@
+{
+    "name": "belfastwomenintech.github.io",
+    "version": "0.1.0",
+    "description": "Synopsis of all Women's tech groups in Belfast",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/belfastwomenintech/belfastwomenintech.github.io"
+    },
+    "contributors": [
+        "Claire Wilgar <cwilgar@gmail.com> (http://clairebones.github.io)"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "express": "^4.16.4"
+    },
+    "dependencies": {
+        "luminous-lightbox": "^2.3.1",
+        "npm": "^6.4.1"
+    }
+}
