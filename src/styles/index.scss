@@ -51,7 +51,7 @@ nav {
     height: 4rem;
     background-color: map-get($color, dark);
     
-    a {
+    a :not(.image-container) {
         color: map-get($color, white);
         text-decoration: none;
         
@@ -79,19 +79,31 @@ nav {
     flex: 1 1 0;
 }
 
+.djangoGirls-content {
+    width: 66%;
+    display: inline-block;
+}
+
 .images-group {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    .image-container {
-        max-width: 20rem;
-        max-height: 15rem;
+    a.image-container {
+        max-width: 15rem;
+        max-height: 10rem;
         .summary-thumbnail {
-            display: block;
+            display: inline-flex;
             height: 100%;
+            margin: 5px;
         }
     }
+}
+
+.twitter-feed {
+    width: 33%;
+    display: inline-block;
+    float: right !important;
 }
 
 .section-title {
@@ -191,7 +203,7 @@ nav {
         margin-bottom: 1rem;
         
         .thumbnail {
-            max-width: 16rem;
+            max-width: 14rem;
             
             &:hover, &:focus {
                 box-shadow: 5px 5px 5px 0px rgba(163,163,163,0.5);
