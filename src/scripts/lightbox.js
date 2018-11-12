@@ -1,3 +1,3 @@
 var Luminous = require('luminous-lightbox').Luminous;
 
-new Luminous(document.querySelector("a"));
+new LuminousGallery(document.querySelector(".image-container"));
